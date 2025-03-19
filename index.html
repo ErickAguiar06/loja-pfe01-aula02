@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja do Souza</title>
+    <title>Loja do Litão</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/assets/camisakroos.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/camisakroos.png" type="image/x-icon">
 </head>
+
 <body>
     <header>
-        <h1>Loja Souza</h1>
-        <button>Novo produto</button>
+        <h1>Loja do Souza</h1>
+        <button onclick="cadastro.classList.remove('oculto')">Novo produto</button>
     </header>
     <main>
     </main>
@@ -21,7 +23,7 @@
         <div class="janela">
             <div>
                 <h3>Cadastro</h3>
-                <button>X</button>
+                <button onclick="window.location.reload()">X</button>
             </div>
             <form>
                 <input type="text" name="produto" placeholder="Nome do produto" required>

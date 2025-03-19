@@ -4,13 +4,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-:root{
+:root {
     --c1: #330000;
-    --c2: #c58f1ce5;
-    --c3: #cc5500;
+    --c2: #cc5500;
+    --c3: #fbde03;
     --c4: #fff9eb;
     --t1: rgba(0, 0, 0, 0.3);
-    --t1: rgba(0, 0, 0, 0.7);
+    --t2: rgba(0, 0, 0, 0.7);
 }
 
 body {
@@ -23,7 +23,8 @@ body {
     justify-content: space-between;
 }
 
-header, footer{
+header,
+footer {
     background-color: var(--c1);
     color: var(--c4);
     width: 100%;
@@ -31,8 +32,8 @@ header, footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-    & button{
+
+    & button {
         background-color: var(--c3);
         border: none;
         padding: 5px 10px;
@@ -70,8 +71,7 @@ main {
         max-width: 250px;
     }
 
-
-    & button{
+    & button {
         background-color: var(--c3);
         border: none;
         padding: 5px 10px;
@@ -80,4 +80,61 @@ main {
         font-weight: bold;
         cursor: pointer;
     }
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--t2);
+}
+
+.janela {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--c4);
+    box-shadow: 0 0 5px var(--t1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    & div {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    & button {
+        background-color: var(--c3);
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px var(--t2);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+input{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--t2);
+    font-weight: bold;
+}
+
+.oculto{
+    display: none;
 }
