@@ -10,18 +10,28 @@
 <body>
     <header>
         <h1>Loja Souza</h1>
+        <button>Novo produto</button>
     </header>
     <main>
-        <div class="card">
-        <h3>Título card</h3>
-        <img src="assets/camisakroos.png" alt="camisa kross">
-        <p>Preço</p>
-        <button>Detalhes</button>
-    </div>
     </main>
     <footer>
         <h2>By Erick</h2>
     </footer>
+    <div id="cadastro" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h3>Cadastro</h3>
+                <button>X</button>
+            </div>
+            <form>
+                <input type="text" name="produto" placeholder="Nome do produto" required>
+                <input type="text" name="descricao" placeholder="Descrição" required>
+                <input type="number" step="0.01" name="preco" placeholder="Preço" required>
+                <input type="text" name="imagem" placeholder="Cole o endereço da imagem" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
