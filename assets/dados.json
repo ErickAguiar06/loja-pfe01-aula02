@@ -1,0 +1,97 @@
+[
+    {
+        "id":1,
+        "produto":"Boné",
+        "descricao":"Boné verde",
+        "preco":25.9,
+        "imagem":"https://static.prospin.com.br/media/catalog/product/m/b/mbv23bon090-bone-new-era-940-new-york-yankees-aba-curva-verde.jpg"
+    },
+
+    {
+        "id":2,
+        "produto":"Boné",
+        "descricao":"Boné preto",
+        "preco":169.9,
+        "imagem":"https://m.media-amazon.com/images/I/31ioj2nFO7L._AC_.jpg"
+    },
+
+    {
+        "id":3,
+        "produto":"Boné",
+        "descricao":"Boné vermelho",
+        "preco":99.95,
+        "imagem":"https://overboard.vteximg.com.br/arquivos/ids/343503-1000-1000/DSC_9420.jpg?v=637733775289700000"
+    },
+
+    {
+        "id":4,
+        "produto":"Boné",
+        "descricao":"Boné preto nike",
+        "preco":171.9,
+        "imagem":"https://www.lojaspresidente.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/o/bone-nike-dri-fit-club-unissex-preto-prata-.jpg"
+    },
+
+    {
+        "id":5,
+        "produto":"Boné",
+        "descricao":"Boné branco nike",
+        "preco":171.9,
+        "imagem":"https://images.tcdn.com.br/img/img_prod/585092/bone_nike_nsw_h86_futura_washed_7223_1_7c012838d74952d061a6267f8de6c442.jpg"
+    },
+
+    {
+        "id":6,
+        "produto":"Boné",
+        "descricao":"Boné azul nike",
+        "preco":171.9,
+        "imagem":"https://cdn.awsli.com.br/600x450/1058/1058679/produto/2604899472b742eb0d5.jpg"
+    },
+
+    {
+        "id":7,
+        "produto":"Boné",
+        "descricao":"Boné preto com azul nike",
+        "preco":180,
+        "imagem":"https://cdn.awsli.com.br/600x450/1046/1046773/produto/268138140ae7176b7b6.jpg"
+    },
+
+    {
+        "id":8,
+        "produto":"Camisa de time",
+        "descricao":"Camisa branca do Real Madrid 24/25",
+        "preco":179.9,
+        "imagem":"https://images.tcdn.com.br/img/img_prod/1052037/camisa_real_madrid_home_2024_25_branca_4767_1_5adac90875156ade499a0543b6c217d7.jpg"
+    },
+
+    {
+        "id":9,
+        "produto":"Camisa de time",
+        "descricao":"Camisa preta do Real Madrid 23/24",
+        "preco":189.9,
+        "imagem":"https://acdn.mitiendanube.com/stores/001/562/869/products/sem-titulo-11491-6dfd17c324346b6a2a16953851424893-1024-1024-7a4fe1cef526fa5fc1169685972055241-e2438c1ffdfb51b1c916968597698941-1024-1024.png"
+    },
+
+    {
+        "id":10,
+        "produto":"Camisa de time",
+        "descricao":"Camisa branca do Real Madrid 24/25",
+        "preco":179.9,
+        "imagem":"https://images.tcdn.com.br/img/img_prod/1052037/camisa_real_madrid_home_2024_25_branca_4767_1_5adac90875156ade499a0543b6c217d7.jpg"
+    },
+
+    {
+        "id":11,
+        "produto":"Camisa de time",
+        "descricao":"Camisa azul do Real Madrid 21/22",
+        "preco":179.9,
+        "imagem":"https://acdn-us.mitiendanube.com/stores/001/631/923/products/171-2225bf98f54e02e30216516182443780-1024-1024.jpg"
+    },
+
+    {
+        "id":12,
+        "produto":"Tênis",
+        "descricao":"Tênis Adidas Ultraboost 1.0 Branco",
+        "preco":999.99,
+        "imagem":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f0ca2dd8bdb84a2ab11faacb8802c4dc_9366/Tenis_Ultraboost_1.0_Branco_HQ4202_HM1.jpg"
+    }
+]
